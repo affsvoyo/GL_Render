@@ -21,6 +21,6 @@ jobs:
         cache: gradle
 
     - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+      run: echo "this is a wip"
     - name: Build with Gradle
       run: gradle build
